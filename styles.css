@@ -1,0 +1,681 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  font-family: "Nunito" !important;
+}
+
+.title {
+  font-size: 75px;
+  color: #fff;
+  font-weight: 100 !important;
+  text-transform: uppercase;
+}
+
+.title2 {
+  font-size: 55px;
+  color: #2f2f2f;
+  font-weight: 100 !important;
+  text-transform: uppercase;
+}
+
+.small-text {
+  font-size: 0.71rem;
+  font-weight: 500;
+  line-height: 0;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.subtitle {
+  display: block;
+  font-size: 0.76rem;
+  font-weight: 500;
+  line-height: 1.1;
+  color: #00b8f4;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.subtitle2 {
+  font-size: 30px;
+  font-weight: 100 !important;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.subtitle3 {
+  font-size: 25px;
+  opacity: 0.7;
+  font-weight: 100 !important;
+  color: #2f2f2f;
+  text-transform: uppercase;
+}
+
+.medium-text {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #fff;
+  line-height: 1.1;
+  text-transform: uppercase;
+}
+
+.sandals-title {
+  font-family: "Mr Dafoe";
+  font-weight: 100;
+  font-size: 2.8rem;
+  margin: 0 10px;
+}
+
+/*Separators*/
+
+.horizontal-separator {
+  background-color: #fff;
+  height: 1px;
+  opacity: 0.5;
+  width: 60%;
+}
+
+.horizontal-separator2 {
+  background-color: #000;
+  height: 1px;
+  opacity: 0.1;
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+/*Nav*/
+
+nav {
+  background-color: #2f2f2f;
+  height: 100px;
+  display: flex !important;
+  justify-content: flex-end !important;
+}
+
+.fa-bars {
+  color: #fff;
+}
+
+nav .navContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  margin-right: 180px;
+  width: 320px;
+  height: 100%;
+}
+
+nav .navContainer .vertical-separator {
+  height: 100%;
+  width: 1px;
+  opacity: 0.5;
+  background-color: #fff;
+}
+
+nav .navContainer .textContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+nav .navContainer .nav-icon {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Hero*/
+
+.segments-menu {
+  height: 70px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.segments-menu .logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.golf {
+  font-weight: 100 !important;
+  font-size: 3.5rem !important;
+  color: rgba(0, 0, 0, 0.3) !important;
+}
+
+.segments-menu p {
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: 900;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.segments-menu p:hover {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.selected-segment::after {
+  display: block;
+  content: "";
+  text-align: center;
+  border-bottom: 5px #00b8f4 solid;
+}
+
+.landing {
+  height: 90vh;
+  background: url(img/heroBG.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-landing {
+  border-radius: 20px;
+  height: 620px;
+  width: 80%;
+  background: radial-gradient(
+    circle,
+    rgba(0, 184, 244, 0.5) 0%,
+    rgba(0, 0, 0, 0) 40%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.fees {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 220px;
+  background-color: #00b8f4;
+  color: #fff;
+  padding: 6px 15px;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.fees > p {
+  margin-left: 10px;
+}
+
+.goDown {
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 75px;
+  width: 75px;
+  border: 2px #fff solid;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  margin-top: 5rem;
+  font-size: 2rem;
+  font-weight: 100 !important;
+}
+
+/*World class*/
+
+#world-class {
+  height: 411px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.inner-world {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.inner-world .info {
+  width: 50%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.inner-world .info h1 {
+  color: #2f2f2f;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.inner-world .info p {
+  color: #2f2f2f;
+  opacity: 0.7;
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin: 10px 0;
+}
+
+.inner-world .image-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: linear-gradient(
+    151deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(189, 189, 189, 1) 100%
+  );
+  width: 190px;
+  height: 190px;
+  border-radius: 50%;
+}
+
+.inner-world .image-container img {
+  color: #0076a3;
+  filter: invert(100%);
+}
+
+/*Fees*/
+
+#fees {
+  background-color: #ededed;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inner-fees {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 75%;
+}
+
+.title-container {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cards {
+  margin: 100px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 85%;
+}
+
+.card {
+  text-align: center;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  height: 560px;
+  position: relative;
+  max-width: 358px;
+  transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.2);
+}
+
+.card-details {
+  font-size: 15px;
+  opacity: 0.4;
+  font-weight: 600;
+  margin: 10px 0 35px 0;
+  width: 90%;
+}
+
+.view-offer {
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+}
+
+.view-offer > i {
+  color: #00b8f4;
+}
+
+.view-offer h3 {
+  opacity: 0.5;
+}
+
+/*Award*/
+
+.inner-award {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 1030px;
+  background-image: url(img/GOLF_12149\ copy\ 2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  -moz-box-shadow: inset 0px 850px 500px -700px #fff;
+  -webkit-box-shadow: inset 0px 850px 500px -700px #fff;
+  -o-box-shadow: inset 0px 850px 500px -700px #fff;
+  box-shadow: inset 0px 800px 500px -600px #fff;
+}
+
+#man {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transform: translateX(-130%) translateY(-20%);
+}
+
+/*Champinship*/
+
+.inner-champ {
+  position: relative;
+  background-color: #ededed;
+  min-height: 309px;
+}
+
+.pro-golfer-container {
+  position: absolute;
+  background-color: #fff;
+  height: 480px;
+  width: 70%;
+  top: 0;
+  left: 0;
+  transform: translate(21%, -60%);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+  transition: all 0.3s ease-in-out;
+}
+
+.pro-golfer-container:hover {
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.4);
+}
+
+.top-pro {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 80%;
+  background-color: #fff;
+  text-align: center;
+}
+
+.top-pro .name {
+  color: #2f2f2f !important;
+  font-weight: 900 !important;
+  opacity: 1 !important;
+}
+
+.play-video {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 17rem;
+}
+
+.play-video > i {
+  font-size: 2rem;
+  color: #00b8f4;
+}
+.play-video h3 {
+  font-size: 1.3rem;
+  color: #2f2f2f;
+  opacity: 0.7;
+  text-transform: capitalize;
+}
+
+.bottom-pro {
+  background-color: #ededed;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vertical-small-separator {
+  background-color: rgba(0, 0, 0, 0.1);
+  height: 70%;
+  width: 1px;
+  margin: 0 35px;
+}
+
+/*Gellery*/
+.outer-gallery {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  height: 100vh;
+  background-color: #ededed;
+}
+
+.inner-gallery {
+  display: grid;
+  height: 925px;
+  grid-gap: 0.3em;
+  grid-template-areas:
+    "item1 item2 item2"
+    "item3 item2 item2"
+    "item4 item4 item5"
+    "item4 item4 item5";
+  justify-items: center;
+  align-items: center;
+}
+
+.item1 {
+  grid-area: item1;
+}
+.item2 {
+  grid-area: item2;
+}
+.item3 {
+  grid-area: item3;
+}
+.item4 {
+  grid-area: item4;
+}
+.item5 {
+  grid-area: item5;
+}
+
+/*Courses*/
+.outer-courses {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  background-color: #ededed;
+  flex-direction: column;
+  height: 160vh;
+}
+
+.inner-courses {
+  margin-top: 20px;
+  display: grid;
+  grid-gap: 1.8em;
+  grid-template-areas:
+    "course1 course2"
+    "course3 course4"
+    "course3 course4"
+    "course5 course4"
+    "crouse5 course4";
+  justify-items: center;
+}
+
+.course1 {
+  grid-area: course1;
+  height: 200px;
+}
+.course2 {
+  grid-area: course2;
+}
+.course3 {
+  grid-area: course3;
+  transform: translateY(-22%);
+}
+.course4 {
+  grid-area: course4;
+}
+.course5 {
+  grid-area: course5;
+  transform: translateY(-13%);
+  height: 435px;
+}
+
+.course {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 35px 10px;
+  width: 550px;
+  max-height: 600px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+
+.course:hover {
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.2);
+}
+
+.course-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 100%;
+}
+
+.usgaLogo {
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: translate(0%, -50%);
+}
+
+.course .tables-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  height: 100%;
+}
+
+.course ul {
+  margin: 0;
+  padding-left: 16px;
+  list-style: none;
+}
+
+.course ul li {
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  margin-bottom: 1.1rem;
+}
+
+.course ul li::before {
+  content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #00b8f4; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1.2em; /* Also needed for space (tweak if needed) */
+}
+
+.course .sub-li {
+  opacity: 0.5;
+}
+
+.course .sub-li::before {
+  content: "-";
+  color: #000;
+  margin-left: -0.2em;
+}
+
+/*ribbon*/
+.badge-overlay {
+  position: absolute;
+  left: 0%;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 100;
+  -webkit-transition: width 1s ease, height 1s ease;
+  -moz-transition: width 1s ease, height 1s ease;
+  -o-transition: width 1s ease, height 1s ease;
+  transition: width 0.4s ease, height 0.4s ease;
+}
+
+.badge {
+  margin: 0;
+  padding: 0;
+  color: white;
+  padding: 10px 10px;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  line-height: normal;
+  text-transform: uppercase;
+  font-weight: 600;
+  background: #ed1c24;
+}
+
+.badge::before,
+.badge::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  margin: 0 -1px;
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  min-width: 55px;
+}
+
+.badge::before {
+  right: 100%;
+}
+
+.badge::after {
+  left: 100%;
+}
+
+.top-left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  -ms-transform: translateX(-35%) translateY(-10%) rotate(-45deg);
+  -webkit-transform: translateX(-35%) translateY(-10%) rotate(-45deg);
+  transform: translateX(-35%) translateY(-5%) rotate(-45deg);
+  -ms-transform-origin: top right;
+  -webkit-transform-origin: top right;
+  transform-origin: top right;
+}
